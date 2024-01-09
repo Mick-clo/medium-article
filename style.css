@@ -1,0 +1,79 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding:120px 0;
+  color: white;
+}
+.banner h1 {
+  font-size: 40px;
+}
+.banner p {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+h1, h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color:chocolate;
+  font-weight: normal;
+}
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgb(67, 66, 122), rgb(67, 66, 122));
+  color: darkblue;
+  font-weight: lighter;
+  font-size: 26px;
+  font-style: italic;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(43, 37, 117), rgba(43, 37, 117, 1));
+}
+body {
+  color:darkslateblue;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 400px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
